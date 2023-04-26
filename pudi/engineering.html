@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Books</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: rgb(70, 66, 61);
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            /* background-color: black; */
+        }
+
+        li a,
+        .back {
+            float: left;
+            background-color: rgb(65, 61, 61);
+            margin: 5px;
+            color: azure;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .book {
+            background-color: rgb(248, 87, 87);
+        }
+
+        li a.book:hover {
+            background-color: rgb(248, 40, 40);
+        }
+
+        .active {
+            background-color: rgb(248, 40, 40);
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 40px;
+            background-color: rgb(201, 248, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul class="list">
+            <li><a class="active" class="book" href="engineering.html">Engineering Books</a></li>
+            <li><a class="book" href="medical.html">Medical Books</a></li>
+            <li><a class="book" href="agricultural.html">Agricultural Books</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Engineering Books</h2>
+    </div>
+    <hr>
+    <div>
+        <table>
+            <tr>
+                <th>S no.</th>
+                <th>Book Title</th>
+                <th>ISBN No.</th>
+                <th>Author</th>
+                <th>Edition</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Java The Complete Reference</td>
+                <td>5647487658943</td>
+                <td>Herbert Schildt</td>
+                <td>2013</td>
+                <td>Programming Language</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Engineering Mathematics</td>
+                <td>5643789873241</td>
+                <td>B.V.Rammana</td>
+                <td>2019</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Database System Concepts</td>
+                <td>6598432890345</td>
+                <td>Henry Korth</td>
+                <td>7<sup>th</sup> edition</td>
+                <td>Database Concepts</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Discrete Mathematics and Application</td>
+                <td>3459820468392</td>
+                <td>Kenneth H Rossen</td>
+                <td>5<sup>th</sup> edition</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Logic and Computer Design Fundamentals</td>
+                <td>5382048991325</td>
+                <td>Morris Mano</td>
+                <td>10<sup>th</sup>edition</td>
+                <td>Digital Design</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <a class="back" href="catalogue.html">Back</a>
+    </div>
+</body>
+
+</html>
