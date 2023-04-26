@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue Page</title>
+    <style>
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            /* background-color: black; */
+        }
+
+        li a {
+            float: left;
+            background-color: rgb(65, 61, 61);
+            margin: 5px;
+            color: azure;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        li a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .active {
+            background-color: black;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(70, 66, 61);
+        }
+
+        .book {
+            background-color: rgb(248, 87, 87);
+        }
+
+        .list {
+            padding-left: 550px;
+        }
+
+        li a.book:hover {
+            background-color: rgb(248, 40, 40);
+        }
+
+        .pic {
+            text-align: right;
+            float: right;
+            border: 2px solid black;
+            margin-right: 40px;
+        }
+
+        p {
+            text-align: left;
+            border: 2px solid black;
+            padding: 30px;
+            width: 30%;
+            margin-left: 100px;
+            display: inline-block;
+            border-radius: 20px;
+            background-color: rgb(201, 248, 255);
+            font-size: large;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a class="active" href="catalogue.html">Catalogue</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Catalogue Page</h2>
+    </div>
+    <hr>
+
+    <div>
+        <ul class="list">
+            <li><a class="book" href="engineering.html">Engineering Books</a></li>
+            <li><a class="book" href="medical.html">Medical Books</a></li>
+            <li><a class="book" href="agricultural.html">Agricultural Books</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>
+            Our library is a collection of materials, books or media that are accessible for use and not just for
+            display purposes.
+            Our library provides physical (hard copies) or digital access (soft copies) materials, and may be a physical
+            location or
+            a virtual space, or both. Our library's collection can include printed materials and other physical
+            resources in many formats
+            such as DVD, CD and cassette as well as access to information, music or other content held on bibliographic
+            databases.
+        </p>
+        <img class="pic" src="library.avif" alt="Sorry! picture is not available">
+    </div>
+
+</body>
+
+</html>

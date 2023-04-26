@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: rgb(70, 66, 61);
+        }
+
+        body {
+            /* background-color: rgb(111, 213, 200); */
+            text-align: center;
+        }
+
+        .form {
+            border: 2px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            /* background-color: black; */
+        }
+
+        li a {
+            float: left;
+            background-color: rgb(65, 61, 61);
+            margin: 5px;
+            color: azure;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        li a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .active {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="registration.html">Registration</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Registration Form</h2>
+    </div>
+    <hr>
+
+    <div class="form">
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" name="roll"><br><br>
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="ee">EE</option>
+                <option value="ce">CE</option>
+                <option value="me">ME</option>
+            </select><br><br>
+            <label for="Section">Section:</label>
+            <select id="section" name="section">
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+            </select><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br><br>
+            <input type="submit" placeholder="Submit Now">
+        </form>
+    </div>
+
+</body>
+
+</html>
