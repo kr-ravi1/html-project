@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Books</title>
+    <style>
+        h2 {
+            text-align: center;
+            color: rgb(70, 66, 61);
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            /* background-color: black; */
+        }
+
+        li a,
+        .back {
+            float: left;
+            background-color: rgb(65, 61, 61);
+            margin: 5px;
+            color: azure;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .book {
+            background-color: rgb(248, 87, 87);
+        }
+
+        li a.book:hover {
+            background-color: rgb(248, 40, 40);
+        }
+
+        .active {
+            background-color: rgb(248, 40, 40);
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 40px;
+            background-color: rgb(201, 248, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul class="list">
+            <li><a class="book" href="engineering.html">Engineering Books</a></li>
+            <li><a class="active" class="book" href="medical.html">Medical Books</a></li>
+            <li><a class="book" href="agricultural.html">Agricultural Books</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>Medical Books</h2>
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <th>Serial no.</th>
+            <th>Book Title</th>
+            <th>ISBN no.</th>
+            <th>Author</th>
+            <th>Edition</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Textbook Of Advanced Therapeutics</td>
+            <td>9789388022958</td>
+            <td>Dr. Atul Choubey MD</td>
+            <td>7<sup>th</sup>edition</td>
+            <td>Therapeutics</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Gray's Anatomy</td>
+            <td>56478398472301</td>
+            <td>VishRam Singh</td>
+            <td>41<sup>th</sup>edition</td>
+            <td>Anatomy</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Text Book of Medical Physiology</td>
+            <td>9875647324135</td>
+            <td>John E. Hall</td>
+            <td>13<sup>th</sup>edition</td>
+            <td>Physiology</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Harper's Illustrated Biochemistry</td>
+            <td>967854831289</td>
+            <td>Victor W. Rodwall</td>
+            <td>31<sup>st</sup>edition</td>
+            <td>Biochemistry</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Essentials of Microbiology</td>
+            <td>9867453674221</td>
+            <td>Sandhya Bhat K.</td>
+            <td>2<sup>nd</sup>edition</td>
+            <td>Microbiology</td>
+        </tr>
+    </table>
+           <br>
+    <div>
+        <a class="back" href="catalogue.html">Back</a>
+    </div>
+</body>
+
+</html>
